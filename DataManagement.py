@@ -84,7 +84,7 @@ class DataMng():
 			
 			for i in range(nIndx):
 				for j in range(1,n):
-					d = dict(zip(dataRw_flMtx[i],dataRw_flMtx[i][1:]))
+					d = dict(zip(dataRw_flMtx[i][:1],dataRw_flMtx[i][1:]))
 					dic.update(d)
 
 			pass
